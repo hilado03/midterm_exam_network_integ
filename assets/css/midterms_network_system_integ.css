@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+
+}
+
+h1 {
+  color:Orange;
+}
+
+div.calc{
+    border-style:solid;
+    height:250px;
+    padding-top: 25px;
+    background-color:#430943;
+    text-align: center;
+}
+
+#mask_ip {
+    text-align: center;
+    color: orange;
+    background-color:black;
+    height:35px;
+    font-size:15px;
+}
+
+#mask_slash{
+    text-align: center;
+    color: orange;
+    background-color:black;
+    height:35px;
+    font-size:15px;
+}
+#number_of_hosts {
+    text-align: center;
+    color: orange;
+    background-color:black;
+    height:35px;
+    font-size:15px;
+}
