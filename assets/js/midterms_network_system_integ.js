@@ -34,6 +34,7 @@ $(document).ready(function(){
 $("#mask_slash").change(function(){
     var idx = $(this).prop('selectedIndex');
     $("#mask_ip").prop('selectedIndex', idx);
+
     var val_slash = $(this).val();
     var val_clients = 0;
 
