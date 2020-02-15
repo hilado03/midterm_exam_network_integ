@@ -1,7 +1,7 @@
 /*                                                                                                                                                                                                                                                                                                                                                                                                   /** mga id ng select
     #mask_slash
     #mask_ip
-    #number_of_hosts
+    #num_clients
 */
 
 $(document).ready(function(){
