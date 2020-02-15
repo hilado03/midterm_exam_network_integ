@@ -30,10 +30,11 @@ div.calc{
     height:35px;
     font-size:15px;
 }
-#number_of_hosts {
+#num_clients {
     text-align: center;
     color: orange;
     background-color:black;
     height:35px;
     font-size:15px;
+    margin-left: -10px;
 }
