@@ -38,38 +38,37 @@ $("#mask_slash").change(function(){
     var val_clients = 0;
 
     switch (val_slash){
-        case "21":
-            val_clients = ('2046');
+        case 21:
+            val_clients = "2046";
             break;
-        case "22":
-            val_clients = ('1022');
+        case 22:
+            val_clients = "1022";
             break;
-        case "23":
-            val_clients = ('510');
+        case 23:
+            val_clients = "510";
             break;
-        case "24":
-            val_clients = ('254');
+        case 24:
+            val_clients = "254";
             break;
-        case "25":
-            val_clients = ('126');
+        case 25:
+            val_clients = "126";
             break;
-        case "26":
-            val_clients = ('62');
+        case 26:
+            val_clients = "62";
             break;
-        case "27":
-            val_clients = ('30');
+        case 27:
+            val_clients = "30";
             break;
-        case "28":
-            val_clients = ('14');
+        case 28:
+            val_clients = "14";
             break;
-        case "29":
-            val_clients = ('6');
+        case 29:
+            val_clients = "6";
             break;
-        case "30":
-            val_clients = ('2');
+        case 30:
+            val_clients = "2";
             break;
     }
-
     });
 });
 
@@ -81,37 +80,36 @@ $("#mask_ip").change(function(){
     var val_clients = 0;
 
     switch (val_ip){
-        case "255.255.248.0":
-            val_clients = ('2046');
+        case 255.255.248.0:
+            val_clients = "2046";
             break;
-        case "255.255.252.0":
-            val_clients = ('1022');
+        case 255.255.252.0:
+            val_clients = "1022";
             break;
-        case "255.255.254.0":
-            val_clients = ('510');
+        case 255.255.254.0:
+            val_clients = "510";
             break;
-        case "255.255.255.0":
-            val_clients = ('254');
+        case 255.255.255.0:
+            val_clients = "254";
             break;
-        case "255.255.255.128":
-            val_clients = ('126');
+        case 255.255.255.128:
+            val_clients = "126";
             break;
-        case "255.255.255.192":
-            val_clients = ('62');
+        case 255.255.255.192:
+            val_clients = "62";
             break;
-        case "255.255.255.224":
-            val_clients = ('30');
+        case 255.255.255.224:
+            val_clients = "30";
             break;
-        case "255.255.255.240":
-            val_clients = ('14');
+        case 255.255.255.240:
+            val_clients = "14";
             break;
-        case "255.255.255.248":
-            val_clients = ('6');
+        case 255.255.255.248:
+            val_clients = "6";
             break;
-        case "255.255.255.252":
-            val_clients = ('2');
+        case 255.255.255.252:
+            val_clients = "2";
             break;
     }
-
     });
 });
