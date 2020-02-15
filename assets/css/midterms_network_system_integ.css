@@ -9,12 +9,11 @@ h1 {
 
 div.calc{
     border-style:solid;
-    height:250px;
+    height:500px;
     padding-top: 25px;
-    background-color:#430943;
+    background-color:Aqua;
     text-align: center;
 }
-
 #mask_ip {
     text-align: center;
     color: orange;
@@ -37,4 +36,13 @@ div.calc{
     height:35px;
     font-size:15px;
     margin-left: -10px;
+}
+#bit_mask {
+    text-align: center;
+    color: orange;
+    background-color:black;
+    height:35px;
+    font-size:15px;
+    margin-left: -10px;
+
 }

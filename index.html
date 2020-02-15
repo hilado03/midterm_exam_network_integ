@@ -15,9 +15,11 @@
 <body>
 <marquee direction="Right" scrollamount="30"><h1>R.J.C.P. Converter</h1></marquee>
     <div class="calc">
-
-        <h3>MASK</h3>
-        <select id="mask_slash">
+<form>
+     <table border="1px" align="center">
+        <tr>
+       <th> <h1>MASK</h1>
+           <select id="mask_slash">
             <option value="21">/21</option>
             <option value="22">/22</option>
             <option value="23">/23</option>
@@ -29,9 +31,11 @@
             <option value="29">/29</option>
             <option value="30">/30</option>
         </select>
-
-        <h3>IP ADDRESS</h3>
-        <select id="mask_ip">
+         </th>
+         </tr>
+        <tr>
+         <th> <h1>IP ADDRESS</h1>
+             <select id="mask_ip">
             <option value="255.255.248.0">255.255.248.0</option>
             <option value="255.255.252.0">255.255.252.0</option>
             <option value="255.255.254.0">255.255.254.0</option>
@@ -43,9 +47,11 @@
             <option value="255.255.255.248">255.255.255.248</option>
             <option value="255.255.255.252">255.255.255.252</option>
         </select>
-
-        <h3>NUMBER OF CLIENTS</h3>
-        <select id="num_clients">
+         </th>
+         </tr>
+        <tr>
+        <th> <h1>NUMBER OF CLIENTS</h1>
+            <select id="num_clients">
             <option value="2046">2046</option>
             <option value="1022">1022</option>
             <option value="510">510</option>
@@ -57,9 +63,12 @@
             <option value="6">6</option>
              <option value="2">2</option>
         </select>
+        </th>
+            </tr>
 
-        <h3>Bit Mask</h3>
-        <select id="bit_mask">
+        <tr>
+         <th> <h1>BIT MASK</h1>
+             <select id="bit_mask">
             <option value="1111 1111.1111 1111.1111 1000.0000 0000">1111 1111.1111 1111.1111 1000.0000 0000</option>
             <option value="1111 1111.1111 1111.1111 1100.0000 0000">1111 1111.1111 1111.1111 1100.0000 0000</option>
             <option value="1111 1111.1111 1111.1111 1110.0000 0000">1111 1111.1111 1111.1111 1110.0000 0000</option>
@@ -71,6 +80,10 @@
             <option value="1111 1111.1111 1111.1111 1111.1111 1000">1111 1111.1111 1111.1111 1111.1111 1000</option>
             <option value="1111 1111.1111 1111.1111 1111.1111 1100">1111 1111.1111 1111.1111 1111.1111 1100</option>
         </select>
+         </th>
+         </tr>
     </div>
+</table>
+</form>
 </body>
 </html>
