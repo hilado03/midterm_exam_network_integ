@@ -9,81 +9,17 @@
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/midterms_network_system_integ.css">
-    <script src="assets/js/midterms_network_system_integ.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/converter.css">
+    <script src="assets/js/converter.js"></script>
 </head>
-<body>
-<marquee direction="Right" scrollamount="30"><h1>R.J.C.P. Converter</h1></marquee>
-    <div class="calc">
-<form>
-     <table border="1px" align="center">
-        <tr>
-       <th> <h1>MASK</h1>
-           <select id="mask_slash">
-            <option value="21">/21</option>
-            <option value="22">/22</option>
-            <option value="23">/23</option>
-            <option value="24">/24</option>
-            <option value="25">/25</option>
-            <option value="26">/26</option>
-            <option value="27">/27</option>
-            <option value="28">/29</option>
-            <option value="29">/29</option>
-            <option value="30">/30</option>
-        </select>
-         </th>
-         </tr>
-        <tr>
-         <th> <h1>IP ADDRESS</h1>
-             <select id="mask_ip">
-            <option value="255.255.248.0">255.255.248.0</option>
-            <option value="255.255.252.0">255.255.252.0</option>
-            <option value="255.255.254.0">255.255.254.0</option>
-            <option value="255.255.255.0">255.255.255.0</option>
-            <option value="255.255.255.128">255.255.255.128</option>
-            <option value="255.255.255.192">255.255.255.192</option>
-            <option value="255.255.255.224">255.255.255.224</option>
-            <option value="255.255.255.240">255.255.255.240</option>
-            <option value="255.255.255.248">255.255.255.248</option>
-            <option value="255.255.255.252">255.255.255.252</option>
-        </select>
-         </th>
-         </tr>
-        <tr>
-        <th> <h1>NUMBER OF CLIENTS</h1>
-            <select id="num_clients">
-            <option value="2046">2046</option>
-            <option value="1022">1022</option>
-            <option value="510">510</option>
-            <option value="254">254</option>
-            <option value="128">126</option>
-            <option value="62">62</option>
-            <option value="30">30</option>
-            <option value="14">14</option>
-            <option value="6">6</option>
-             <option value="2">2</option>
-        </select>
-        </th>
-            </tr>
 
-        <tr>
-         <th> <h1>BIT MASK</h1>
-             <select id="bit_mask">
-            <option value="1111 1111.1111 1111.1111 1000.0000 0000">1111 1111.1111 1111.1111 1000.0000 0000</option>
-            <option value="1111 1111.1111 1111.1111 1100.0000 0000">1111 1111.1111 1111.1111 1100.0000 0000</option>
-            <option value="1111 1111.1111 1111.1111 1110.0000 0000">1111 1111.1111 1111.1111 1110.0000 0000</option>
-            <option value="1111 1111.1111 1111.1111 1111.0000 0000">1111 1111.1111 1111.1111 1111.0000 0000</option>
-            <option value="1111 1111.1111 1111.1111 1111.1000 0000">1111 1111.1111 1111.1111 1111.1000 0000</option>
-            <option value="1111 1111.1111 1111.1111 1111.1100 0000">1111 1111.1111 1111.1111 1111.1100 0000</option>
-            <option value="1111 1111.1111 1111.1111 1111.1110 0000">1111 1111.1111 1111.1111 1111.1110 0000</option>
-            <option value="1111 1111.1111 1111.1111 1111.1111 0000">1111 1111.1111 1111.1111 1111.1111 0000</option>
-            <option value="1111 1111.1111 1111.1111 1111.1111 1000">1111 1111.1111 1111.1111 1111.1111 1000</option>
-            <option value="1111 1111.1111 1111.1111 1111.1111 1100">1111 1111.1111 1111.1111 1111.1111 1100</option>
-        </select>
-         </th>
-         </tr>
-    </div>
-</table>
-</form>
-</body>
+<center><body>
+<input type="text" id="ip_mask" disabled>
+<br>
+<br>
+<input type="text" id="slash">
+<br>
+<br>
+<input type="button" value="Convert" onclick="do_convert()">
+</body></center>
 </html>
